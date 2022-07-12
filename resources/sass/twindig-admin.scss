@@ -1,0 +1,19 @@
+.bg-dark-indigo {
+    background: $dark-indigo;
+}
+
+.rounded-xl {
+    border-radius: 3*$border-radius-lg !important;
+}
+
+#profileAreaList {
+    a.active {
+        font-weight: bolder;
+    }
+    a.active:after {
+        content: "\2190";
+        display: inline-block;
+        position: absolute;
+        right: 3rem;
+    }
+}

@@ -1,0 +1,50 @@
+// Body
+$body-bg: #f8fafc;
+$enable-gradients: true;
+$enable-rounded: true;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+
+// Twindig Brand Colours
+$dark-indigo: #31243f;
+$sun-yellow: #ff9f20;
+$ember-orange: #ff4f35;
+$cool-grey: #b1b7bb;
+$light-grey: #eeeff0;
+$text: #2d2d2d;
+$light-text: #6c6c6c;
+$interaction-blue: #4f50aa;
+
+
+// Colour Overrides
+$body-bg: $light-grey;
+$primary: $sun-yellow;
+$secondary: $ember-orange;
+
+// Custom Colours
+$theme-colors: () !default;
+$theme-colors: map-merge(
+    (
+        "dark-indigo": $dark-indigo,
+        "sun-yellow": $sun-yellow,
+        "ember-orange": $ember-orange,
+        "interaction-blue": $interaction-blue,
+    ),
+    $theme-colors
+);
